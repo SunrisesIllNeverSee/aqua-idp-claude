@@ -13,6 +13,10 @@ Published by Ello Cello LLC · [aquaidp.xyz](https://aquaidp.xyz) · [Privacy](h
 
 AQUA never approves an answer for you, never submits a form, and never claims a draft was submitted. Approval records a digest of the exact wording, so approved text can't change silently.
 
+## Public program catalog
+
+The plugin also connects to AQUA's hosted, read-only program catalog (`https://aquaidp.xyz/mcp`, no account, no install). Claude can search programs, read a program's questions, find similar questions across programs, and see which questions matter most. Search terms and question text you send it go to aquaidp.xyz; your workspace files never do.
+
 ## Install
 
 In Claude Code:

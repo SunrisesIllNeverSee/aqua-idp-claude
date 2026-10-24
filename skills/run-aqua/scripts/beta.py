@@ -13,7 +13,7 @@ from pathlib import Path
 from urllib.parse import urlparse
 from urllib.request import Request, urlopen
 
-VERSION = "0.1.15"
+VERSION = "0.1.16"
 
 
 def _stamp() -> str:

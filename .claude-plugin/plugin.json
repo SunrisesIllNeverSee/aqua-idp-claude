@@ -1,7 +1,7 @@
 {
   "name": "aqua-idp",
   "displayName": "AQUA IDP",
-  "version": "0.1.15",
+  "version": "0.1.16",
   "description": "Build a reusable application answer bank. AQUA IDP archives the applications you give it, indexes their questions, reuses answers you've approved, and prepares Markdown drafts for your review: for funding, jobs, college and grants.",
   "author": {
     "name": "Ello Cello LLC",

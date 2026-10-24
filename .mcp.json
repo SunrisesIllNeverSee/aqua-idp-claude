@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "aqua-catalog": {
+      "type": "http",
+      "url": "https://aquaidp.xyz/mcp"
+    }
+  }
+}
