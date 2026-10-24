@@ -1,0 +1,17 @@
+{
+  "name": "aqua",
+  "owner": {
+    "name": "Ello Cello LLC",
+    "email": "burnmydays@proton.me",
+    "url": "https://aquaidp.xyz"
+  },
+  "description": "AQUA IDP for Claude: turn every application into a reusable, approved answer bank.",
+  "plugins": [
+    {
+      "name": "aqua-idp",
+      "source": "./",
+      "description": "Build a reusable application answer bank. AQUA IDP archives the applications you give it, indexes their questions, reuses answers you've approved, and prepares Markdown drafts for your review: for funding, jobs, college and grants.",
+      "version": "0.1.15"
+    }
+  ]
+}
