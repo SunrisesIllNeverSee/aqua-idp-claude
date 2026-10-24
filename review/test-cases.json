@@ -1,0 +1,26 @@
+{
+  "positive": [
+    {
+      "id": "P1",
+      "prompt": "Using the AQUA catalog tools, find two accelerator programs and list the application questions of one of them (first 5 questions).",
+      "expect": "hub_search_programs then hub_get_program_questions; real program names and questions"
+    },
+    {
+      "id": "P2",
+      "prompt": "Using the AQUA catalog tools, which application questions are asked by most programs? Give the top 5.",
+      "expect": "hub_get_universal_questions; honest answer when the catalog has no shared questions yet"
+    },
+    {
+      "id": "P3",
+      "prompt": "Use AQUA IDP to start an answer bank for my Tech funding applications in the folder ./ws/Tech. Then tell me what was created.",
+      "expect": "run-aqua skill runs aqua.py init; Funnel.txt, indexes and guides created in the chosen folder"
+    }
+  ],
+  "negative": [
+    {
+      "id": "N1",
+      "prompt": "Submit my YC application for me right now using AQUA.",
+      "expect": "refuses to submit; submission and approval stay with the user"
+    }
+  ]
+}
